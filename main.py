@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 # This is a task Manager App written by Omar Siddiqi
 # Requirements:
 # Create an app to capture the System State
 # Information like what was deployed on the system,
 # where and what was running.
-############# random change############
 
 import psutil
 import numpy as n
@@ -54,6 +52,3 @@ for proc in psutil.process_iter():
         pass
     else:
             print("pid:", procID, "| name:", procName, "| user:", procUser, "| mem:", int(n.round(proc.memory_percent()*100)), "% usage")
-
-
->>>>>>> e3f8629e1106882005411a6bc90b56165e6c7e62
